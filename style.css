@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-header {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-header .top {
+  height: 240px;
+  display: flex;
+  justify-content: right;
+}
+.section-header .top .icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(52, 58, 64, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.section-header .bottom {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}
+.section-header .bottom h1 {
+  font-size: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+.section-header .bottom h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+}
+.section-header .bottom button {
+  width: 180px;
+  height: 65px;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  background-color: #1D809F;
+}
+
+.section-offer {
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-offer .main {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+.section-offer .main p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.section-offer .main p a {
+  color: #1D809F;
+}
+.section-offer .main .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-offer .main .bottom button {
+  width: 180px;
+  height: 65px;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  background-color: #000000;
+}
+
+.section-services {
+  height: 550px;
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

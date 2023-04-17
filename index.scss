@@ -1,0 +1,95 @@
+@import './mixin.scss';
+@import './vars.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.section-header {
+    background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .top {
+        height: 240px;
+        display: flex;
+        justify-content: right;
+    }
+    .top .icon {
+        width: 50px;
+        height: 50px;
+         background: rgba(52, 58, 64, 0.5);;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .bottom {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 250px;
+    }
+    .bottom h1 {
+        font-size: 80px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+    }
+    .bottom h3 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 25px;
+    }
+    .bottom button {
+       @include special-button;
+       background-color: #1D809F;
+    }
+}
+
+
+.section-offer {
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main {
+        width: 50%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+    }
+    .main p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .main p a {
+        color: #1D809F;;
+    }
+    .main .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .bottom button {
+        @include special-button;
+        background-color: #000000;
+    }
+}
+
+.section-services {
+height: 550px;
+background-color: green;
+}
