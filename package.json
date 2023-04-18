@@ -1,7 +1,6 @@
 {
-  "name": "code2-1",
+  "name": "y",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.62.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilsalmanov/stylish-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sahilsalmanov/stylish-portfolio/issues"
+  },
+  "homepage": "https://github.com/sahilsalmanov/stylish-portfolio#readme",
+  "description": ""
 }

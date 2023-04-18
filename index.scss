@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
 
 
-* {
+* { 
     margin: 0;
     padding: 0;
 }
@@ -55,7 +55,6 @@
     }
 }
 
-
 .section-offer {
     height: 430px;
     display: flex;
@@ -91,5 +90,290 @@
 
 .section-services {
 height: 550px;
-background-color: green;
+background-color: #1D809F;
+display: flex;
+justify-content: center;
+align-items: center;
+.main {
+    width: 75%;
+    height: 400px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main .top {
+    text-align: center;
+}
+.main .top p {
+color: #ECB81D;
+font-weight: 900;
+}
+.main .top h2 {
+    font-size: 45px;
+    color: white;
+}
+.main .bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.main .bottom .item {
+    width: 20%;
+    height: 230px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+.main .bottom .item .white-circle {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.main .bottom .item .white-circle i {
+   color:#1D809F;
+}
+.main .bottom .item .bottom {
+    display: flex;
+    flex-direction: column;
+}
+.main .bottom .item .bottom h4 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.main .bottom .item .bottom p{
+   color: #A2CAD7 ;
+}
+
+
+
+}
+
+.section-welcome {
+    height: 700px;
+    background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    .main {
+        display: flex;
+        flex-direction: column;
+        font-size: 35px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        justify-content: space-between;
+        text-align: center;
+        height: 230px;
+        width: 30%;
+        color: #212529
+    }
+    .main-btn button {
+        @include special-button;
+        background-color:#1D809F
+    }
+}
+
+.section-projects {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1100px;
+        width: 80%;
+    }
+    .main .top {
+        text-align: center;
+    }
+    .main .top p {
+    color: #ECB81D;
+    font-weight: 900;
+    }
+    .main .top h2 {
+        font-size: 45px;
+        color: #212529;
+    }
+    .bottom {
+        height: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .bottom .item {
+        width: 50%;
+        height: 400px;
+    }
+    .bottom .item1 {
+        background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg');
+        background-size: cover;
+    }
+    .bottom .item1 .top {
+        height: 270px;
+    }
+    .bottom .item1 .text {
+        height: 100px;
+    }
+    .bottom .item1 .text .main-text {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+    }
+    .bottom .item1 .text .main-text p {
+     font-size: 20px;
+     margin-top: 10px;
+    }
+    .bottom .item2 {
+        background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg');
+        background-size: cover;
+    }
+    .bottom .item2 .top {
+        height: 270px;
+    }
+    .bottom .item2 .text {
+        height: 100px;
+    }
+    .bottom .item2 .text .main-text {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+    }
+    .bottom .item2 .text .main-text p {
+     font-size: 20px;
+     margin-top: 10px;
+    }
+    .bottom .item3{
+        background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg');
+        background-size: cover;
+    }
+    .bottom .item3 .top {
+        height: 270px;
+    }
+    .bottom .item3 .text {
+        height: 100px;
+    }
+    .bottom .item3 .text .main-text {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+    }
+    .bottom .item3 .text .main-text p {
+     font-size: 20px;
+     margin-top: 10px;
+    }
+    .bottom .item4 {
+        background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg');
+        background-size: cover;
+    }
+    .bottom .item4 .top {
+        height: 270px;
+    }
+    .bottom .item4 .text {
+        height: 100px;
+    }
+    .bottom .item4 .text .main-text {
+        width: 80%;
+        margin: 0 auto;
+        color: white;
+    }
+    .bottom .item4 .text .main-text p {
+     font-size: 20px;
+     margin-top: 10px;
+    }
+    .bottom .item3 {
+        background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg');
+        background-size: cover;
+    }
+    .bottom .item4 {
+        background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg');
+        background-size: cover;
+    }
+}
+
+.sections-buttons {
+    height: 380px;
+    background-color: #1D809F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      .main {
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}     
+.btns {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.btns button {
+    @include special-button
+}
+.btns .first {
+    color: black;
+   background-color: white;
+}
+.btns .second {
+    background-color: black;
+    color: white;
+}
+}
+
+.section-map {
+    iframe {
+        width: 100%;
+    }
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main {
+        height: 200px;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        color: white;
+    }
+    .icons {
+        display: flex;
+        justify-content: space-around;
+    }
+    .icons .item {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background-color: #1D809F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .end p {
+        color: #000000;
+    }
 }
