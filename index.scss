@@ -210,7 +210,7 @@ font-weight: 900;
         color: #212529;
     }
     .bottom {
-        height: 900px;
+        height: 800px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -218,6 +218,7 @@ font-weight: 900;
     .bottom .item {
         width: 50%;
         height: 400px;
+        transition: 0.5s;
     }
     .bottom .item:hover {
         transform: scale(0.9);

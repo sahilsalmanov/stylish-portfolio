@@ -218,7 +218,7 @@
   color: #212529;
 }
 .section-projects .bottom {
-  height: 900px;
+  height: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -226,6 +226,7 @@
 .section-projects .bottom .item {
   width: 50%;
   height: 400px;
+  transition: 0.5s;
 }
 .section-projects .bottom .item:hover {
   transform: scale(0.9);
