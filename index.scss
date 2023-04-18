@@ -32,6 +32,7 @@
         border-radius: 5px;
         margin-right: 10px;
         margin-top: 10px;
+        position: fixed;
     }
     .bottom {
         text-align: center;
@@ -62,7 +63,7 @@
     align-items: center;
     .main {
         width: 50%;
-        height: 200px;
+        height: 220px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -218,6 +219,10 @@ font-weight: 900;
         width: 50%;
         height: 400px;
     }
+    .bottom .item:hover {
+        transform: scale(0.9);
+        transition: 0.5s;
+    }
     .bottom .item1 {
         background-image: url('https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg');
         background-size: cover;
@@ -311,7 +316,7 @@ font-weight: 900;
     justify-content: center;
     align-items: center;
       .main {
-    width: 40%;
+    width: 50%;
     height: 200px;
     text-align: center;
     display: flex;
@@ -374,6 +379,146 @@ footer {
         align-items: center;
     }
     .end p {
-        color: #000000;
+        color: #6c757d
     }
+}
+
+@media (min-width:770px) and (max-width:1100px) {
+ .section-header .top .icon {
+    height: 60px;
+    width: 60px;
+ }
+ .section-offer {
+    .main {
+        width: 80%;
+    }
+ }
+ .section-services {
+    height: 800px;
+    .main {
+        height: 600px;
+    }
+    .bottom {
+      
+        flex-wrap: wrap;
+    }
+    .main .bottom .item {
+        width: 40%;
+ }
+}
+.section-welcome {
+    .main{
+        width: 50%;
+    }
+}
+.section-projects {
+    height:2050px;
+    align-items: center;
+    justify-content: center;
+    .main {
+        justify-content: flex-start;
+        height: 2000px;
+    }
+    .main .top {
+        height: 80px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .bottom .item {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+   .bottom .item .top {
+        margin: 0;
+    }
+}
+.sections-buttons .main {
+    width: 80%;
+}
+footer .main {
+    width: 35%;
+}
+}
+
+@media (min-width:320px) and (max-width:770px) {
+    .container {
+        min-width: 365px;
+    }
+    .section-header {
+        .top .icon {
+            width: 65px;
+            height: 65px;
+        }
+        .bottom {
+            height: 320px;
+        }
+    }
+    .section-offer {
+        .main {
+            width: 80%;
+        }
+        .main .bottom {
+            margin-top: 20px;
+        }
+        height: 450px;
+    }
+    .section-services {
+        justify-content: baseline;
+        align-items: baseline;
+        height: 1100px;
+        .main {
+            height: 1000px;
+            width: 90%;
+        }
+        .main .top {
+            margin-top: 40px;
+        }
+       .main .bottom {
+            flex-wrap: wrap;
+        }
+        .main .bottom .item {
+            width: 80%;
+        }
+    }
+    .section-welcome {
+        .main {
+            height: 300px;
+            width: 90%;
+        }
+    }
+    .section-projects {
+        .main .bottom .item {
+            height: 200px;
+            width: 100%;
+            margin: 0 auto;
+         }
+        .main .bottom .item .top {
+            height: 120px;
+        }
+        .main .bottom .item .text .main-text p {
+            font-size: 12px ;
+        } 
+    }
+    .sections-buttons {
+        .main {
+            width: 80%;
+        }
+        .main .btns {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .main .btns button {
+            margin: 0 auto;
+        }
+
+    }
+    footer {
+        .main {
+            width: 70%;
+        }
+    }
+
 }

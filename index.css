@@ -29,6 +29,7 @@
   border-radius: 5px;
   margin-right: 10px;
   margin-top: 10px;
+  position: fixed;
 }
 .section-header .bottom {
   text-align: center;
@@ -64,7 +65,7 @@
 }
 .section-offer .main {
   width: 50%;
-  height: 200px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -226,6 +227,10 @@
   width: 50%;
   height: 400px;
 }
+.section-projects .bottom .item:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
 .section-projects .bottom .item1 {
   background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg");
   background-size: cover;
@@ -319,7 +324,7 @@
   align-items: center;
 }
 .sections-buttons .main {
-  width: 40%;
+  width: 50%;
   height: 200px;
   text-align: center;
   display: flex;
@@ -385,5 +390,127 @@ footer .icons .item {
   align-items: center;
 }
 footer .end p {
-  color: #000000;
+  color: #6c757d;
+}
+
+@media (min-width: 770px) and (max-width: 1100px) {
+  .section-header .top .icon {
+    height: 60px;
+    width: 60px;
+  }
+  .section-offer .main {
+    width: 80%;
+  }
+  .section-services {
+    height: 800px;
+  }
+  .section-services .main {
+    height: 600px;
+  }
+  .section-services .bottom {
+    flex-wrap: wrap;
+  }
+  .section-services .main .bottom .item {
+    width: 40%;
+  }
+  .section-welcome .main {
+    width: 50%;
+  }
+  .section-projects {
+    height: 2050px;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-projects .main {
+    justify-content: flex-start;
+    height: 2000px;
+  }
+  .section-projects .main .top {
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .section-projects .bottom .item {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .section-projects .bottom .item .top {
+    margin: 0;
+  }
+  .sections-buttons .main {
+    width: 80%;
+  }
+  footer .main {
+    width: 35%;
+  }
+}
+@media (min-width: 320px) and (max-width: 770px) {
+  .container {
+    min-width: 365px;
+  }
+  .section-header .top .icon {
+    width: 65px;
+    height: 65px;
+  }
+  .section-header .bottom {
+    height: 320px;
+  }
+  .section-offer {
+    height: 450px;
+  }
+  .section-offer .main {
+    width: 80%;
+  }
+  .section-offer .main .bottom {
+    margin-top: 20px;
+  }
+  .section-services {
+    justify-content: baseline;
+    align-items: baseline;
+    height: 1100px;
+  }
+  .section-services .main {
+    height: 1000px;
+    width: 90%;
+  }
+  .section-services .main .top {
+    margin-top: 40px;
+  }
+  .section-services .main .bottom {
+    flex-wrap: wrap;
+  }
+  .section-services .main .bottom .item {
+    width: 80%;
+  }
+  .section-welcome .main {
+    height: 300px;
+    width: 90%;
+  }
+  .section-projects .main .bottom .item {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section-projects .main .bottom .item .top {
+    height: 120px;
+  }
+  .section-projects .main .bottom .item .text .main-text p {
+    font-size: 12px;
+  }
+  .sections-buttons .main {
+    width: 80%;
+  }
+  .sections-buttons .main .btns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sections-buttons .main .btns button {
+    margin: 0 auto;
+  }
+  footer .main {
+    width: 70%;
+  }
 }/*# sourceMappingURL=index.css.map */
